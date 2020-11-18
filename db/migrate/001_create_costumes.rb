@@ -6,6 +6,10 @@ class CreateCostumes < ActiveRecord::Migration[5.1]
       c.integer :price
       c.string :size
       c.string :image_url
+      c.string :created_at
+      c.string :updated_at
+    end
+  end
     end
   end
     # Create a class and inherit from ActiveRecord::Migration
