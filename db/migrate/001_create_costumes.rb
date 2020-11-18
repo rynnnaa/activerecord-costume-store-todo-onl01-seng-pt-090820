@@ -10,8 +10,7 @@ class CreateCostumes < ActiveRecord::Migration[5.1]
       c.string :updated_at
     end
   end
-    end
-  end
+end
     # Create a class and inherit from ActiveRecord::Migration
 
 # By convention, the class name should match the part of the
